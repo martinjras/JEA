@@ -421,7 +421,7 @@ If you wanted to, you could also restrict the arguments using a regular expressi
 Because "Get" commands typically don't change system state, this is a relatively safe action.
 That being said, it is strongly encouraged to closely examinine every command you expose through JEA.
 
-3.	You have expose an executable (ipconfig) using VisibleExternalCommands.
+3.	You have exposed an executable (ipconfig) using VisibleExternalCommands.
 You can also expose full PowerShell scripts with this field.
 It is important to always provide the full path to external commands to ensure a similarly named (and potentially malicous) program placed in the user's path does not get executed instead.
 
