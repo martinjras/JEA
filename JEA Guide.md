@@ -559,7 +559,7 @@ Keep in mind this is simply an example, your organizations requirements may be d
 Now that you have your list of actions, you need to think through the capabilities of each command.
 There are two important reasons to do this:
 
-1.	It is easy to expose give users more capabilities than you intend.
+1.	It is easy to expose given users more capabilities than you intend.
 For example, `Set-ADUser` is an incredibly powerful and flexible command.
 You may not want to expose everything it can do to help desk users.  
 
